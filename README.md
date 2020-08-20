@@ -13,6 +13,7 @@ You will need a C compiler. Simply compile enum.c and run the resulting output p
 I recommend you test this by starting a web server in the test directory (test_dir). This can be done easily using PythonX:
 
   _Python2_: python -m SimpleHTTPServer 8000
+  
   _Python3_: python -m http.server 8000
   
 After this, the scanner should target localhost:8000 by default so you can run the output binary again and see the results.
